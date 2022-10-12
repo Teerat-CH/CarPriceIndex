@@ -3,7 +3,7 @@ from matplotlib import pyplot as plt
 from matplotlib.patches import Rectangle
 import streamlit as st
 
-data = pd.read_csv("BOT_Car_index.csv")
+data = pd.read_csv("BOT_Car_Index.csv")
 data_sort = data.sort_values(["month"]).reset_index(drop=True)
 
 st.set_page_config(layout="wide")
