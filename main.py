@@ -27,7 +27,7 @@ if Truck:
         data_sort["cartype_truck"], "-", color="orange", alpha=0.7, label="Truck price index"
     )
 
-plt.xlabel('2011                                        2022',fontsize=15)
+plt.xlabel('2011                                                                                                                                                                                                                                                                                        2022',fontsize=15)
 plt.legend()
 st.pyplot(fig1)
 
@@ -65,4 +65,5 @@ ax.plot(index, price10, "o:")
 ax.plot(index, price11, "o:")
 ax.plot(index, price12, "o:")
 ax.add_patch(Rectangle((138, 79), Month - 140.5, 65, color="white", zorder=10))
+plt.xlabel('2011                                                                                                                                                                                                                                                                                        2022',fontsize=15)
 st.pyplot(fig2)
