@@ -27,7 +27,7 @@ if Truck:
         data_sort["cartype_truck"], "-", color="orange", alpha=0.7, label="Truck price index"
     )
 
-
+ax.xlabel('2011-2022',fontsize=15)
 plt.legend()
 st.pyplot(fig1)
 
