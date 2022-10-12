@@ -35,7 +35,7 @@ st.pyplot(fig1)
 time = data_sort["month"]
 index = time.index
 
-Month = st.slider("Month", 0, 140, 1)
+Month = st.slider("Month", 0, 138, 1)
 
 fig2, ax = plt.subplots(figsize=(25, 5))
 
